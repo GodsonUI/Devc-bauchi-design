@@ -259,7 +259,7 @@ border-bottom-color: #0F3661 !important;
 }
 
 .price-section {
-  background: linear-gradient(rgba(15,54,97, 0.3), rgba(15,54,97, 0.3)),  url("../images/business.png") no-repeat bottom center fixed;
+  background: linear-gradient(rgba(15,54,97, 0.3), rgba(15,54,97, 0.3)),  url("../images/DSC_0463.JPG") no-repeat bottom center fixed;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -311,6 +311,7 @@ p, h1 {
 .styled-link:focus,
 .styled-link:active {
   color: #EE5556;
+  font-weight: bold;
 }
 .shadow-1 {
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.15);
@@ -324,4 +325,18 @@ p, h1 {
   /*mar*/
   border: none;
   border-bottom: 5px solid #0F3661;
+}
+
+.news-card img {
+  filter: grayscale(100%);
+}
+
+.news-card:hover img {
+  filter: none;
+  -webkit-filter: none;
+  filter: none;
+  -webkit-transition: filter 1s ease-out;
+  -moz-transition: filter 1s ease-out;
+  -o-transition: filter 1s ease-out;
+  transition: filter 1s ease-out;
 }
