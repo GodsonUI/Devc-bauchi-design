@@ -277,7 +277,7 @@ border-bottom-color: #0F3661 !important;
 }
 
 .contact-right-bg {
-  background: linear-gradient(rgba(15,54,97, 0.3), rgba(15,54,97, 0.5)),  url("../images/1474527068contact services centers.jpg") no-repeat bottom center fixed;
+  background: linear-gradient(rgba(15,54,97, 0.5), rgba(15,54,97, 0.8)),  url("../images/1474527068contact services centers.jpg") no-repeat bottom center fixed;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -361,4 +361,28 @@ p, h1 {
 
 .set-border {
   border-radius: 4px;
+}
+
+input[type="text"]:focus:not([readonly]) {
+  box-shadow: 0 1px 0 0 #F25453 !important;
+  border-bottom: 1px solid #F25453 !important;
+}
+input[type="email"]:focus:not([readonly]) {
+  box-shadow: 0 1px 0 0 #F25453 !important;
+  border-bottom: 1px solid #F25453 !important;
+}
+
+.md-form label {
+  position: absolute;
+  top: .65rem;
+  left: 0;
+  -webkit-transition: .2s ease-out;
+  -o-transition: .2s ease-out;
+  transition: .2s ease-out;
+  cursor: text;
+  color: #F25453;
+}
+
+.md-form label.active {
+  color: #F25453 !important;
 }
