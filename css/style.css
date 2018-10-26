@@ -204,6 +204,14 @@
   background-color: #0F3661 !important;
 }
 
+.testimonail {
+  line-height: 1.8;
+}
+.avatar {
+  height: 70px;
+  width: 70px;
+}
+
 .default-text {
   color: #67657B !important;
 }
