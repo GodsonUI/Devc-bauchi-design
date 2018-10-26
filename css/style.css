@@ -211,3 +211,11 @@
   color: rgb(33, 37, 41) !important;
 }
 
+.industry-section {
+  background: linear-gradient(rgba(15,54,97, 0.3), rgba(15,54,97, 0.3)),  url("../images/family-business-meeting-feature.jpg") no-repeat bottom center fixed;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
