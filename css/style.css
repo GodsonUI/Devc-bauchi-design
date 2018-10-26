@@ -197,9 +197,28 @@
 }
 
 .pinky-border2{
-  border-bottom: 2px solid;
-  min-width: 75%;
+  border-bottom: 1px solid;
+  min-width: 50%;
   border-color: #EE5556 !important;
+}
+
+.tick-border2{
+  border-bottom: 0.5px solid;
+  min-width: 25%;
+  border-color: #0F3661 !important;
+}
+
+.tick-border3{
+  border-bottom: 0.5px solid;
+  min-width: 25%;
+  border-color: #EE5556 !important;
+}
+.list-group-item {
+
+border-bottom-color: #0F3661 !important;
+}
+.font-weight-light {
+  font-weight: lighter;
 }
 
 .pinky-button {
