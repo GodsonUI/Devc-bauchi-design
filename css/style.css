@@ -190,6 +190,11 @@
 .picky-text{
   color: #EE5556 !important;
 }
+.picky-border{
+  border-bottom: 5px solid;
+  min-width: 8%;
+  border-color: #EE5556 !important;
+}
 
 .picky-button {
   background-color: #F25453 !important;
