@@ -196,6 +196,12 @@
   border-color: #EE5556 !important;
 }
 
+.pinky-border2{
+  border-bottom: 2px solid;
+  min-width: 75%;
+  border-color: #EE5556 !important;
+}
+
 .pinky-button {
   background-color: #F25453 !important;
 }
