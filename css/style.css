@@ -281,3 +281,47 @@ border-bottom-color: #0F3661 !important;
   transform: scale(1.1);
   box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
 }
+
+p, h1 {
+  margin: 0; padding: 0;
+}
+
+ .lts-1px {
+   letter-spacing: 1px;
+}
+.lts-2px {
+  letter-spacing: 2px;
+}
+.p-relative {
+  position: relative;
+}
+.p-absolute {
+  position: absolute
+}
+.card-heading {
+  font-size: 2.25rem;
+}
+.styled-link {
+  text-decoration: none;
+  outline: none;
+  color: #2196fe;
+  transition: all 0.25s ease-in; 
+}
+.styled-link:hover,
+.styled-link:focus,
+.styled-link:active {
+  color: #536dfe;
+}
+.shadow-1 {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.15);
+}
+.blue-hover {
+  transition: all 0.25s ease-in;
+  border-bottom: 5px solid transparent;
+}
+.blue-hover:hover {
+  transform: translateY(-5px);
+  mar
+  border: none;
+  border-bottom: 5px solid #0F3661;
+}
