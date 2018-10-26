@@ -232,3 +232,12 @@
   -o-background-size: cover;
   background-size: cover;
 }
+
+.price-section {
+  background: linear-gradient(rgba(15,54,97, 0.3), rgba(15,54,97, 0.3)),  url("../images/business.png") no-repeat bottom center fixed;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
