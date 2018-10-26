@@ -266,3 +266,18 @@ border-bottom-color: #0F3661 !important;
   -o-background-size: cover;
   background-size: cover;
 }
+
+.item-list {
+  transform: scale(0.95);
+  transition: box-shadow 0.5s, transform 0.5s;
+}
+
+.item-list:hover {
+  transform: scale(1);
+  box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.item-list-mid {
+  transform: scale(1.1);
+  box-shadow: 5px 20px 30px rgba(0, 0, 0, 0.2);
+}
