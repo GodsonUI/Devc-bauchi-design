@@ -184,21 +184,29 @@
 }
 
 .tick-blue-text {
-  color: #0F3661;
+  color: #0F3661 !important;
 }
 
 .picky-text{
-  color: #EE5556;
+  color: #EE5556 !important;
 }
 
 .picky-button {
-  background-color: #F25453;
+  background-color: #F25453 !important;
 }
 
 .default-bg-color{
-  background-color: #0F3661;
+  background-color: #0F3661 !important;
 }
 
 .default-text {
-  color: #67657B;
+  color: #67657B !important;
+}
+.navbar-nav .active a {
+  color: #EE5556 !important;
+  background-color: transparent !important;
+}
+
+.nav-item a {
+  color: rgb(33, 37, 41) !important;
 }
