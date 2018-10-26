@@ -267,6 +267,24 @@ border-bottom-color: #0F3661 !important;
   background-size: cover;
 }
 
+.contact-left-bg {
+  background: linear-gradient(rgba(15,54,97, 0.1), rgba(15,54,97, 0.1)),  url("../images/contact.jpg") no-repeat bottom center fixed;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.contact-right-bg {
+  background: linear-gradient(rgba(15,54,97, 0.3), rgba(15,54,97, 0.5)),  url("../images/1474527068contact services centers.jpg") no-repeat bottom center fixed;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .item-list {
   transform: scale(0.95);
   transition: box-shadow 0.5s, transform 0.5s;
@@ -339,4 +357,8 @@ p, h1 {
   -moz-transition: filter 1s ease-out;
   -o-transition: filter 1s ease-out;
   transition: filter 1s ease-out;
+}
+
+.set-border {
+  border-radius: 4px;
 }
